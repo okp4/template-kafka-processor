@@ -1,1 +1,1 @@
-rootProject.name = "kafka-processor"
+rootProject.name = "template-kafka-processor"
