@@ -3,7 +3,7 @@ package com.okp4.processor.cosmos
 import org.apache.kafka.common.serialization.Serdes
 import org.apache.kafka.streams.StreamsBuilder
 import org.apache.kafka.streams.Topology
-import org.apache.kafka.streams.kstream.Branched
+import org.apache.kafka.streams.kstream.Branched.*
 import org.apache.kafka.streams.kstream.Consumed
 import org.apache.kafka.streams.kstream.Named
 import org.apache.kafka.streams.kstream.Produced
@@ -39,7 +39,7 @@ fun topology(props: Properties): Topology {
                 }, Named.`as`("map-value"))
                     .split().branch(
                         { _, v -> v.second.isFailure },
-                        Branched.withConsumer { ks ->
+                        withConsumer { ks ->
                             ks.peek(
                                 { k, v ->
                                     v.second.onFailure {
@@ -60,7 +60,7 @@ fun topology(props: Properties): Topology {
                         }
                     )
                     .defaultBranch(
-                        Branched.withConsumer { ks ->
+                        withConsumer { ks ->
                             ks.mapValues(
                                 { v -> v.second.getOrThrow() }, Named.`as`("unwrap-value")
                                 ).to(
