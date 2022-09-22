@@ -2,7 +2,7 @@
 
 > Template for Kafka Streams Processor project @okp4.
 
-[![version](https://img.shields.io/github/v/release/okp4/template-kafka-processor&style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/releases)
+[![version](https://img.shields.io/github/v/release/okp4/template-kafka-processor?style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/releases)
 [![build](https://img.shields.io/github/workflow/status/okp4/template-kafka-processor/Build?label=build&style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/actions/workflows/build.yml)
 [![lint](https://img.shields.io/github/workflow/status/okp4/template-kafka-processor/Lint?label=lint&style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/actions/workflows/lint.yml)
 [![test](https://img.shields.io/github/workflow/status/okp4/template-kafka-processor/Test?label=test&style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/actions/workflows/test.yml)
