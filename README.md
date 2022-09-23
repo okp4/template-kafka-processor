@@ -53,3 +53,10 @@ This command line produces 2 JAR files:
 - a _fat_ JAR: `kafka-processor-X.Y-standalone.jar`
 
 This last one is the one to use as it contains all the dependencies in it.
+
+## You want to get involved? 😍
+
+Please check out OKP4 health files :
+
+- [Contributing](https://github.com/okp4/.github/blob/main/CONTRIBUTING.md)
+- [Code of conduct](https://github.com/okp4/.github/blob/main/CODE_OF_CONDUCT.md)
