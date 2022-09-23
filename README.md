@@ -2,12 +2,13 @@
 
 > Template for Kafka Streams Processor project @okp4.
 
-[![version](https://img.shields.io/github/v/release/okp4/template-kafka-processor)](https://github.com/okp4/template-kafka-processor/releases)
-[![build](https://github.com/okp4/template-kafka-processor/actions/workflows/build.yml/badge.svg)](https://github.com/okp4/template-kafka-processor/actions/workflows/build.yml)
-[![lint](https://github.com/okp4/template-kafka-processor/actions/workflows/lint.yml/badge.svg)](https://github.com/okp4/template-kafka-processor/actions/workflows/lint.yml)
-[![test](https://github.com/okp4/template-kafka-processor/actions/workflows/test.yml/badge.svg)](https://github.com/okp4/template-kafka-processor/actions/workflows/test.yml)
-[![conventional commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![version](https://img.shields.io/github/v/release/okp4/template-kafka-processor?style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/releases)
+[![build](https://img.shields.io/github/workflow/status/okp4/template-kafka-processor/Build?label=build&style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/actions/workflows/build.yml)
+[![lint](https://img.shields.io/github/workflow/status/okp4/template-kafka-processor/Lint?label=lint&style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/actions/workflows/lint.yml)
+[![test](https://img.shields.io/github/workflow/status/okp4/template-kafka-processor/Test?label=test&style=for-the-badge&logo=github)](https://github.com/okp4/template-kafka-processor/actions/workflows/test.yml)
+[![conventional commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge&logo=conventionalcommits)](https://conventionalcommits.org)
+[![contributor covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)](https://github.com/okp4/.github/blob/main/CODE_OF_CONDUCT.md)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg?style=for-the-badge)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Purpose
 
@@ -52,3 +53,10 @@ This command line produces 2 JAR files:
 - a _fat_ JAR: `kafka-processor-X.Y-standalone.jar`
 
 This last one is the one to use as it contains all the dependencies in it.
+
+## You want to get involved? 😍
+
+Please check out OKP4 health files :
+
+- [Contributing](https://github.com/okp4/.github/blob/main/CONTRIBUTING.md)
+- [Code of conduct](https://github.com/okp4/.github/blob/main/CODE_OF_CONDUCT.md)
